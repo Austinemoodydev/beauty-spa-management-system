@@ -1,0 +1,130 @@
+/* PAYMENTS MODULE STYLES */
+
+.payments-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.payments-container h2 {
+    text-align: center;
+    color: #e75480;
+    margin-bottom: 1.5rem;
+}
+
+/* Add Button */
+a.add-btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.6rem 1.2rem;
+    background: #e75480;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+a.add-btn:hover {
+    background: #a8edea;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+th {
+    background: #fce4ec;
+    color: #e75480;
+    font-weight: 600;
+    border-bottom: 2px solid #f8bbd0;
+}
+tr:nth-child(even) {
+    background: #fafafa;
+}
+tr:hover {
+    background: #fff0f6;
+}
+
+td a {
+    color: #e75480;
+    font-size: 1.05rem;
+    text-decoration: none;
+}
+td a:hover {
+    color: #d32f2f;
+}
+
+/* Payment Form */
+form.payment-form {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    max-width: 440px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+form label {
+    font-weight: 500;
+    color: #3a3a3a;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+form input,
+form select,
+form textarea {
+    padding: 0.6rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fafbfc;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #e75480;
+    box-shadow: 0 0 4px rgba(231,84,128,0.2);
+    outline: none;
+}
+form button[type="submit"] {
+    background: linear-gradient(90deg, #e75480 0%, #a8edea 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(231,84,128,0.08);
+}
+form button[type="submit"]:hover {
+    background: linear-gradient(90deg, #a8edea 0%, #e75480 100%);
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+.back-link a {
+    color: #e75480;
+    text-decoration: none;
+    font-weight: 500;
+}
+.back-link a:hover {
+    color: #a8edea;
+    text-decoration: underline;
+}

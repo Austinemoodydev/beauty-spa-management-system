@@ -1,0 +1,115 @@
+/* ...existing code... */
+/*
+
+/* Form Styles - Smaller Version */
+form {
+    background: #fff;
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    max-width: 320px; /* Reduced from 420px */
+    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem; /* Reduced spacing */
+}
+
+form label {
+    font-weight: 500;
+    color: #3a3a3a;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 0.9rem; /* Smaller font */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form select {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background: #fafbfc;
+    transition: border 0.2s;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #e75480;
+    outline: none;
+}
+
+form button[type="submit"] {
+    background: linear-gradient(90deg, #e75480 0%, #a8edea 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    transition: background 0.2s;
+    box-shadow: 0 2px 6px rgba(231,84,128,0.08);
+}
+
+form button[type="submit"]:hover {
+    background: linear-gradient(90deg, #a8edea 0%, #e75480 100%);
+}
+
+a {
+    display: inline-block;
+    margin: 1rem auto 0 auto;
+    color: #e75480;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #a8edea;
+    text-decoration: underline;
+}
+
+/* ...existing code... */
+/* Wrapper for Add Product Layout */
+.add-product-layout {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+    min-height: 80vh;
+    background-color: #f7f8fa;
+}
+
+/* Centered Card for Form */
+.form-wrapper {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    margin-right: 2rem;
+}
+
+/* Form Heading */
+.form-heading {
+    font-size: 1.5rem;
+    color: #e75480;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.add-product-layout {
+    justify-content: center;
+    padding: 1rem;
+}
+
+.form-wrapper {
+    margin: 0;
+}

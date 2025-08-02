@@ -1,0 +1,143 @@
+/* CLIENT MODULE STYLES */
+
+/* Section Title */
+h2 {
+    text-align: center;
+    color: #e75480;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Add/Edit Form Container */
+form.add-client-form,
+form.edit-client-form {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    max-width: 420px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+/* Label and Inputs */
+form label {
+    font-weight: 500;
+    color: #3a3a3a;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    padding: 0.6rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fafbfc;
+    transition: border 0.2s;
+}
+form input:focus,
+form select:focus {
+    border-color: #e75480;
+    outline: none;
+}
+
+/* Form Buttons */
+form button[type="submit"],
+a.button-link {
+    background: linear-gradient(90deg, #e75480 0%, #a8edea 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(231, 84, 128, 0.08);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+form button[type="submit"]:hover,
+a.button-link:hover {
+    background: linear-gradient(90deg, #a8edea 0%, #e75480 100%);
+}
+
+/* Back link */
+.back-link {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.back-link a {
+    color: #e75480;
+    text-decoration: none;
+    font-weight: 500;
+}
+.back-link a:hover {
+    text-decoration: underline;
+    color: #a8edea;
+}
+
+/* Client Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    margin: 2rem 0;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background: #fce4ec;
+    color: #e75480;
+    font-weight: 600;
+    border-bottom: 2px solid #f8bbd0;
+}
+
+tr:nth-child(even) {
+    background: #fafafa;
+}
+
+tr:hover {
+    background: #fff0f6;
+}
+
+/* Action Links */
+td a {
+    color: #e75480;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+td a:hover {
+    color: #d32f2f;
+}
+
+/* Add Button Top */
+a.add-btn {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.6rem 1.2rem;
+    background: #e75480;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+a.add-btn:hover {
+    background: #a8edea;
+}

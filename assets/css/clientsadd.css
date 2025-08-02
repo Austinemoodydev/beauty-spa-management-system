@@ -1,0 +1,55 @@
+/* Add New Client Form Styles */
+form.add-client-form {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    max-width: 420px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+form.add-client-form label {
+    font-weight: 500;
+    color: #3a3a3a;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+form.add-client-form input[type="text"],
+form.add-client-form input[type="email"],
+form.add-client-form select {
+    padding: 0.6rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fafbfc;
+    transition: border 0.2s;
+}
+
+form.add-client-form input:focus,
+form.add-client-form select:focus {
+    border-color: #e75480;
+    outline: none;
+}
+
+form.add-client-form button[type="submit"] {
+    background: linear-gradient(90deg, #e75480 0%, #a8edea 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(231,84,128,0.08);
+}
+
+form.add-client-form button[type="submit"]:hover {
+    background: linear-gradient(90deg, #a8edea 0%, #e75480 100%);
+}

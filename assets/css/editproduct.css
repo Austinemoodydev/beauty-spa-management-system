@@ -1,0 +1,16 @@
+
+        .edit-product-form {
+            background: #fff;
+            padding: 2rem 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            max-width: 440px;
+            margin: 2rem auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+
+        .edit-product-form label {
+            font-weight: 500;
+        }
