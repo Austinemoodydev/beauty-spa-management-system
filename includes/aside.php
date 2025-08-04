@@ -14,14 +14,15 @@
 
         <!-- Core Modules -->
         <li class="menu-header">Operations</li>
+        <li><a href="/spa managent system/modules/clients/index.php" class="nav-link">
+                <span class="nav-icon">👥</span> <span class="nav-text">Clients</span>
+            </a></li>
 
         <li><a href="/spa managent system/modules/appointments/index.php" class="nav-link">
                 <span class="nav-icon">📅</span> <span class="nav-text">Appointments</span>
             </a></li>
 
-        <li><a href="/spa managent system/modules/clients/index.php" class="nav-link">
-                <span class="nav-icon">👥</span> <span class="nav-text">Clients</span>
-            </a></li>
+
 
         <li><a href="/spa managent system/modules/payments/index.php" class="nav-link">
                 <span class="nav-icon">💳</span> <span class="nav-text">Payments</span>
@@ -33,6 +34,10 @@
 
         <li><a href="/spa managent system/modules/staff/index.php" class="nav-link">
                 <span class="nav-icon">👨‍🔧</span> <span class="nav-text">Staff</span>
+            </a></li>
+
+        <li><a href="/spa managent system/modules/sales/index.php" class="nav-link">
+                <span class="nav-icon">🛍️</span> <span class="nav-text">Sales</span>
             </a></li>
 
         <!-- Services -->
@@ -50,9 +55,7 @@
                 <span class="nav-icon">🧴</span> <span class="nav-text">Products</span>
             </a></li>
 
-        <li><a href="/spa managent system/modules/sales/index.php" class="nav-link">
-                <span class="nav-icon">🛍️</span> <span class="nav-text">Sales</span>
-            </a></li>
+
 
         <!-- Inventory -->
         <li class="has-submenu">

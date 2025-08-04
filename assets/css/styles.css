@@ -12,6 +12,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url('../images/SPA BACKGROUND IMAGE.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Header Styles */

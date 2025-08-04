@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include('../../includes/db.php');
 include('../../includes/header.php');
 include('../../includes/aside.php');
@@ -18,6 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header("Location: index.php");
     exit();
 }
+ob_end_flush();
+
 ?>
 
 <!-- CSS Links -->

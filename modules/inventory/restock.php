@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     exit;
 }
 ?>
-<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="stylesheet" href="../../assets/css/styles.css">
 <section style="background:#fff;padding:1.5rem 2rem;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.06);max-width:400px;margin:2rem auto;font-family:Arial,sans-serif;text-align:center;">
     <h2 style="color:#e75480;font-size:1.4rem;margin-bottom:0.8rem;">🔄 Restock Product</h2>
 

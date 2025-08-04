@@ -66,4 +66,4 @@ include_once '../../includes/aside.php';
     <?php include_once '../../includes/footer.php'; ?>
 </body>
 
-</html>
+</html>add tailwind.css insside the page
